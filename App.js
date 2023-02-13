@@ -12,7 +12,6 @@ export default function App() {
       .catch(error => {
         Alert.alert('Error', error);
       });
-    console.log(recipes);
   }
 
   return (
